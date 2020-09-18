@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $(".genBtn").on("click", (event) => {
+    $(".generate").on("submit", (event) => {
         event.preventDefault();
         // character strings
         let length = $("#length").val();
