@@ -15,5 +15,5 @@ SO THAT I can create a strong password that provides greater security
 ## Technologies
 This password generator uses jQuery and Bootstrap for styling. I themed it like The Matrix since that's probably my favorite movie.
 
-DEPLOYED SITE: 
+DEPLOYED SITE: https://nlamonaco86.github.io/password_Generator/
 ![password generator demo](./assets/screenshot.png)
