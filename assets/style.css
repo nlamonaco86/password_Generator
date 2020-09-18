@@ -1,0 +1,58 @@
+.bg {
+  /* background-color: black; */
+  background-image: url("matrix.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-circle.btn-md { 
+  width: 30px; 
+  height: 30px; 
+  padding: 7px 3px; 
+  border-radius: 24px; 
+  font-size: 8px; 
+  text-align: center; 
+} 
+
+.btn-circle.btn-lg { 
+width: 50px; 
+height: 50px; 
+padding: 7px 3px; 
+border-radius: 24px; 
+font-size: 12px; 
+text-align: center; 
+} 
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomed {
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -95%);
+}
+
+.white{
+  background-color: white
+}
+
+.shadow{
+  shadow: 3px 3px gray
+}
+
+.pad{
+padding: 10px;
+}
+
+.pad2{
+  padding: 50px;
+  }
+
+  .padtop{
+    padding-top: 20px;
+    }

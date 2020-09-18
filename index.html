@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Javascript Password Generator</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./assets/script.js"></script>
+  <script src="https://kit.fontawesome.com/6337599472.js"></script>
+</head>
+
+<body class="bg">
+
+  <div class="col-lg-7">
+    <div class="centered text-center white pad2">
+      <i class="fas fa-laptop-code fa-7x text-success pad"></i>
+      <h1 class="card-title display-4 text-success">Password Generator</h1>
+
+      <form class="generate">
+        <div class="form-group">
+          <label for="length" class="h5">Length:</label>
+          <input type="number" id="length" name="length" min="8" max="128">
+        </div>
+        <div class="form-group">
+          <label for="include">Include:</label>
+          <input type="checkbox" id="lower" name="lower" value="lower">
+          <label for="vehicle1"> Lowercase</label>
+          <input type="checkbox" id="upper" value="upper">
+          <label for="vehicle2"> Uppercase</label>
+          <input type="checkbox" id="num" value="numeric">
+          <label for="vehicle3"> Numeric</label>
+          <input type="checkbox" id="spec" value="special">
+          <label for="vehicle3"> Special</label>
+        </div>
+        <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+          <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+          <span class="sr-only">Error:</span> <span class="msg"></span>
+        </div>
+        <button type="submit" class="btn-lg btn-circle btn-success display-4 genBtn" id="genBtn"><i
+            class="fas fa-3x fa-plus text-white"></i></button>
+      </form>
+      <div class="padtop">
+      <textarea class="col-lg-10 bg-dark text-success font-weight-bold" id="password" rows="4"></textarea>
+    </div>
+
+    </div>
+  </div>
+
+
+  <footer class="bottomed"><a class="text-danger font-weight-bold" href="http://www.github.com/nlamonaco86">Contact</a></footer>
+
+</body>
+
+</html>
